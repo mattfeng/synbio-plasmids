@@ -1,0 +1,105 @@
+LOCUS       MTK678_001              2906 bp ds-DNA     circular     22-FEB-2019
+DEFINITION  .
+ACCESSION   <unknown id>                                                       
+VERSION     <unknown id>                                                       
+KEYWORDS    "AmpR-ColE1"                                                       
+FEATURES             Location/Qualifiers
+     CDS             complement(join(2077..2906,1..28))
+                     /label="AmpR"
+                     /ApEinfo_revcolor=#9f4240
+                     /ApEinfo_fwdcolor=#9f4240
+     promoter        945..1074
+                     /label="BBa_J72163 GlpT Promoter"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     protein_bind    complement(937..942)
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     protein_bind    1961..1966
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     terminator      complement(1980..2076)
+                     /label="AmpR Terminator"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+     rep_origin      complement(160..923)
+                     /label="ColE1"
+                     /ApEinfo_revcolor=#7f7f7f
+                     /ApEinfo_fwdcolor=#7f7f7f
+     CDS             1111..1827
+                     /label="sfGFP"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     protein_bind    complement(932..935)
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     protein_bind    1968..1971
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     terminator      1828..1956
+                     /label="BBa_B0015 Terminator"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     RBS             1075..1110
+                     /label="sfGFP Ribosome Binding Site"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     promoter        complement(29..159)
+                     /label="AmpR Promoter"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+ORIGIN
+        1 gggcgacacg gaaatgttga atactcatac tcttcctttt tcaatattat tgaagcattt
+       61 atcagggtta ttgtctcatg agcggataca tatttgaatg tatttagaaa aataaacaaa
+      121 taggggttcc gcgcacattt ccccgaaaag tgccacctgt catgaccaaa atcccttaac
+      181 gtgagttttc gttccactga gcgtcagacc ccgtagaaaa gatcaaagga tcttcttgag
+      241 atcctttttt tctgcgcgta atctgctgct tgcaaacaaa aaaaccaccg ctaccagcgg
+      301 tggtttgttt gccggatcaa gagctaccaa ctctttttcc gaaggtaact ggcttcagca
+      361 gagcgcagat accaaatact gttcttctag tgtagccgta gttaggccac cacttcaaga
+      421 actctgtagc accgcctaca tacctcgctc tgctaatcct gttaccagtg gctgctgcca
+      481 gtggcgataa gtcgtgtctt accgggttgg actcaagacg atagttaccg gataaggcgc
+      541 agcggtcggg ctgaacgggg ggttcgtgca cacagcccag cttggagcga acgacctaca
+      601 ccgaactgag atacctacag cgtgagctat gagaaagcgc cacgcttccc gaagggagaa
+      661 aggcggacag gtatccggta agcggcaggg tcggaacagg agagcgcacg agggagcttc
+      721 cagggggaaa cgcctggtat ctttatagtc ctgtcgggtt tcgccacctc tgacttgagc
+      781 gtcgattttt gtgatgctcg tcaggggggc ggagcctatg gaaaaacgcc agcaacgcgg
+      841 cctttttacg gttcctggcc ttttgctggc cttttgctca catgttcttt cctgcgttat
+      901 cccctgattc tgtggataac cgtgcggccg ccccttgaga ccatgaaagt gaaacgtgat
+      961 ttcatgcgtc attttgaaca ttttgtaaat cttatttaat aatgtgtgcg gcaattcaca
+     1021 tttaatttat gaatgttttc ttaacatcgc ggcaactcaa gaaacggcag gttcggatct
+     1081 tagctactag agaaagagga gaaatactag atgcgtaaag gcgaagagct gttcactggt
+     1141 gtcgtcccta ttctggtgga actggatggt gatgtcaacg gtcataagtt ttccgtgcgt
+     1201 ggcgagggtg aaggtgacgc aactaatggt aaactgacgc tgaagttcat ctgtactact
+     1261 ggtaaactgc cggttccttg gccgactctg gtaacgacgc tgacttatgg tgttcagtgc
+     1321 tttgctcgtt atccggacca tatgaagcag catgacttct tcaagtccgc catgccggaa
+     1381 ggctatgtgc aggaacgcac gatttccttt aaggatgacg gcacgtacaa aacgcgtgcg
+     1441 gaagtgaaat ttgaaggcga taccctggta aaccgcattg agctgaaagg cattgacttt
+     1501 aaagaggacg gcaatatcct gggccataag ctggaataca attttaacag ccacaatgtt
+     1561 tacatcaccg ccgataaaca aaaaaatggc attaaagcga attttaaaat tcgccacaac
+     1621 gtggaggatg gcagcgtgca gctggctgat cactaccagc aaaacactcc aatcggtgat
+     1681 ggtcctgttc tgctgccaga caatcactat ctgagcacgc aaagcgttct gtctaaagat
+     1741 ccgaacgaga aacgcgatca tatggttctg ctggagttcg taaccgcagc gggcatcacg
+     1801 catggtatgg atgaactgta caaatgacca ggcatcaaat aaaacgaaag gctcagtcga
+     1861 aagactgggc ctttcgtttt atctgttgtt tgtcggtgaa cgctctctac tagagtcaca
+     1921 ctggctcacc ttcgggtggg cctttctgcg tttataagtc ggtctcatac agcggccgcg
+     1981 attatcaaaa aggatcttca cctagatcct tttaaattaa aaatgaagtt ttaaatcaat
+     2041 ctaaagtata tatgagtaaa cttggtctga cagttaccaa tgcttaatca gtgaggcacc
+     2101 tatctcagcg atctgtctat ttcgttcatc catagttgcc tgactccccg tcgtgtagat
+     2161 aactacgata cgggagggct taccatctgg ccccagtgct gcaatgatac cgcgggaccc
+     2221 acgctcaccg gctccagatt tatcagcaat aaaccagcca gccggaaggg ccgagcgcag
+     2281 aagtggtcct gcaactttat ccgcctccat ccagtctatt aattgttgcc gggaagctag
+     2341 agtaagtagt tcgccagtta atagtttgcg caacgttgtt gccattgcta caggcatcgt
+     2401 ggtgtcacgc tcgtcgtttg gtatggcttc attcagctcc ggttcccaac gatcaaggcg
+     2461 agttacatga tcccccatgt tgtgcaaaaa agcggttagc tccttcggtc ctccgatcgt
+     2521 tgtcagaagt aagttggccg cagtgttatc actcatggtt atggcagcac tgcataattc
+     2581 tcttactgtc atgccatccg taagatgctt ttctgtgact ggtgagtact caaccaagtc
+     2641 attctgagaa tagtgtatgc ggcgaccgag ttgctcttgc ccggcgtcaa tacgggataa
+     2701 taccgcgcca catagcagaa ctttaaaagt gctcatcatt ggaaaacgtt cttcggggcg
+     2761 aaaactctca aggatcttac cgctgttgag atccagttcg atgtaaccca ctcgtgcacc
+     2821 caactgatct tcagcatctt ttactttcac cagcgtttct gggtgagcaa aaacaggaag
+     2881 gcaaaatgcc gcaaaaaagg gaataa
+//

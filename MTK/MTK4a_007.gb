@@ -1,0 +1,73 @@
+LOCUS       MTK4a_007               1684 bp ds-DNA     circular     22-FEB-2019
+DEFINITION  .
+ACCESSION   <unknown id>                                                       
+VERSION     <unknown id>                                                       
+KEYWORDS    "mRuby2:CDS-4a"                                                    
+FEATURES             Location/Qualifiers
+     protein_bind      complement(896..899)
+                       /label="BsaI"
+                       /ApEinfo_revcolor=#b1ff67
+                       /ApEinfo_fwdcolor=#b1ff67
+     rep_origin        complement(99..862)
+                       /label="ColE1"
+                       /ApEinfo_revcolor=#7f7f7f
+                       /ApEinfo_fwdcolor=#7f7f7f
+     Peroxisome marker 878..886
+                       /label="SKL"
+                       /ApEinfo_revcolor=#d59687
+                       /ApEinfo_fwdcolor=#d59687
+     protein_bind      874..877
+                       /label="BsaI"
+                       /ApEinfo_revcolor=#b1ff67
+                       /ApEinfo_fwdcolor=#b1ff67
+     promoter          complement(join(1678..1684,1..98))
+                       /label="CamR Promoter"
+                       /ApEinfo_revcolor=#84b0dc
+                       /ApEinfo_fwdcolor=#84b0dc
+     terminator        complement(909..1017)
+                       /label="CamR Terminator"
+                       /ApEinfo_revcolor=#84b0dc
+                       /ApEinfo_fwdcolor=#84b0dc
+     protein_bind      complement(901..906)
+                       /label="BsaI"
+                       /ApEinfo_revcolor=#b1ff67
+                       /ApEinfo_fwdcolor=#b1ff67
+     protein_bind      867..872
+                       /label="BsaI"
+                       /ApEinfo_revcolor=#b1ff67
+                       /ApEinfo_fwdcolor=#b1ff67
+     CDS               complement(1018..1677)
+                       /label="CamR"
+                       /ApEinfo_revcolor=#0000ff
+                       /ApEinfo_fwdcolor=#0000ff
+ORIGIN
+        1 tccttagctc ctgaaaatct cgataactca aaaaatacgc ccggtagtga tcttatttca
+       61 ttatggtgaa agttggaacc tcttacgtgc ccgatcaatc atgaccaaaa tcccttaacg
+      121 tgagttttcg ttccactgag cgtcagaccc cgtagaaaag atcaaaggat cttcttgaga
+      181 tccttttttt ctgcgcgtaa tctgctgctt gcaaacaaaa aaaccaccgc taccagcggt
+      241 ggtttgtttg ccggatcaag agctaccaac tctttttccg aaggtaactg gcttcagcag
+      301 agcgcagata ccaaatactg ttcttctagt gtagccgtag ttaggccacc acttcaagaa
+      361 ctctgtagca ccgcctacat acctcgctct gctaatcctg ttaccagtgg ctgctgccag
+      421 tggcgataag tcgtgtctta ccgggttgga ctcaagacga tagttaccgg ataaggcgca
+      481 gcggtcgggc tgaacggggg gttcgtgcac acagcccagc ttggagcgaa cgacctacac
+      541 cgaactgaga tacctacagc gtgagctatg agaaagcgcc acgcttcccg aagggagaaa
+      601 ggcggacagg tatccggtaa gcggcagggt cggaacagga gagcgcacga gggagcttcc
+      661 agggggaaac gcctggtatc tttatagtcc tgtcgggttt cgccacctct gacttgagcg
+      721 tcgatttttg tgatgctcgt caggggggcg gagcctatgg aaaaacgcca gcaacgcggc
+      781 ctttttacgg ttcctggcct tttgctggcc ttttgctcac atgttctttc ctgcgttatc
+      841 ccctgattct gtggataacc gtagtcggtc tcaatccagc aagctgtaac tcgagtggct
+      901 gagaccagac caataaaaaa cgcccggcgg caaccgagcg ttctgaacaa atccagatgg
+      961 agttctgagg tcattactgg atctatcaac aggagtccaa gcgagctcga tatcaaatta
+     1021 cgccccgccc tgccactcat cgcagtactg ttgtaattca ttaagcattc tgccgacatg
+     1081 gaagccatca caaacggcat gatgaacctg aatcgccagc ggcatcagca ccttgtcgcc
+     1141 ttgcgtataa tatttgccca tggtgaaaac gggggcgaag aagttgtcca tattggccac
+     1201 gtttaaatca aaactggtga aactcaccca gggattggct gaaacgaaaa acatattctc
+     1261 aataaaccct ttagggaaat aggccaggtt ttcaccgtaa cacgccacat cttgcgaata
+     1321 tatgtgtaga aactgccgga aatcgtcgtg gtattcactc cagagcgatg aaaacgtttc
+     1381 agtttgctca tggaaaacgg tgtaacaagg gtgaacacta tcccatatca ccagctcacc
+     1441 gtctttcatt gccatacgaa attccggatg agcattcatc aggcgggcaa gaatgtgaat
+     1501 aaaggccgga taaaacttgt gcttattttt ctttacggtc tttaaaaagg ccgtaatatc
+     1561 cagctgaacg gtctggttat aggtacattg agcaactgac tgaaatgcct caaaatgttc
+     1621 tttacgatgc cattgggata tatcaacggt ggtatatcca gtgatttttt tctccatttt
+     1681 agct
+//

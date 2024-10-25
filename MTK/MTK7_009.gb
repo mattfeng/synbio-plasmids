@@ -1,0 +1,121 @@
+LOCUS       MTK7_009                2269 bp ds-DNA     circular     22-FEB-2019
+DEFINITION  .
+ACCESSION   <unknown id>                                                       
+VERSION     <unknown id>                                                       
+FEATURES             Location/Qualifiers
+     rep_origin      complement(1..764)
+                     /label="ColE1"
+                     /ApEinfo_revcolor=#7f7f7f
+                     /ApEinfo_fwdcolor=#7f7f7f
+     misc_feature    780..1365
+                     /label="Right Arm Homology"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     primer_bind     1366..1382
+                     /label="M13 Forward (-40) (Elim)"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     misc_feature    1119..1119
+                     /label="mutation to reduce GC"
+                     /ApEinfo_revcolor=#d6b295
+                     /ApEinfo_fwdcolor=#d6b295
+     misc_feature    1076..1076
+                     /label="mutation to reduce GC content"
+                     /ApEinfo_revcolor=#b7e6d7
+                     /ApEinfo_fwdcolor=#b7e6d7
+     misc_feature    1046..1046
+                     /label="mutation to remove BsmBI cut site"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     CDS             complement(1505..2164)
+                     /label="CamR"
+                     /ApEinfo_revcolor=#0000ff
+                     /ApEinfo_fwdcolor=#0000ff
+     misc_feature    complement(1396..1504)
+                     /label="CamR Terminator"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     misc_feature    963..963
+                     /label="mutation to remove BsaI cut site"
+                     /ApEinfo_revcolor=#ff9ccd
+                     /ApEinfo_fwdcolor=#ff9ccd
+     misc_feature    1110..1110
+                     /label="mutation to reduce GC"
+                     /ApEinfo_revcolor=#d6b295
+                     /ApEinfo_fwdcolor=#d6b295
+     promoter        complement(2165..2269)
+                     /label="CamR Promoter"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     misc_feature    1148..1148
+                     /label="mutation to reduce GC content"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     misc_feature    1222..1222
+                     /label="mutation to reduce GC"
+                     /ApEinfo_revcolor=#b4abac
+                     /ApEinfo_fwdcolor=#b4abac
+     misc_feature    complement(1239..1258)
+                     /label="gRNA"
+                     /ApEinfo_revcolor=#f8d3a9
+                     /ApEinfo_fwdcolor=#f8d3a9
+     misc_feature    1145..1145
+                     /label="mutation to remove ngg"
+                     /ApEinfo_revcolor=#b7e6d7
+                     /ApEinfo_fwdcolor=#b7e6d7
+     misc_feature    1018..1018
+                     /label="mutation to change ngg"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     misc_feature    1228..1228
+                     /label="mutation to reduce GC"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     misc_feature    complement(1020..1039)
+                     /label="gRNA1"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     misc_feature    1237..1237
+                     /label="mutation to remove ngg"
+                     /ApEinfo_revcolor=#9eafd2
+                     /ApEinfo_fwdcolor=#9eafd2
+ORIGIN
+        1 tcatgaccaa aatcccttaa cgtgagtttt cgttccactg agcgtcagac cccgtagaaa
+       61 agatcaaagg atcttcttga gatccttttt ttctgcgcgt aatctgctgc ttgcaaacaa
+      121 aaaaaccacc gctaccagcg gtggtttgtt tgccggatca agagctacca actctttttc
+      181 cgaaggtaac tggcttcagc agagcgcaga taccaaatac tgttcttcta gtgtagccgt
+      241 agttaggcca ccacttcaag aactctgtag caccgcctac atacctcgct ctgctaatcc
+      301 tgttaccagt ggctgctgcc agtggcgata agtcgtgtct taccgggttg gactcaagac
+      361 gatagttacc ggataaggcg cagcggtcgg gctgaacggg gggttcgtgc acacagccca
+      421 gcttggagcg aacgacctac accgaactga gatacctaca gcgtgagcta tgagaaagcg
+      481 ccacgcttcc cgaagggaga aaggcggaca ggtatccggt aagcggcagg gtcggaacag
+      541 gagagcgcac gagggagctt ccagggggaa acgcctggta tctttatagt cctgtcgggt
+      601 ttcgccacct ctgacttgag cgtcgatttt tgtgatgctc gtcagggggg cggagcctat
+      661 ggaaaaacgc cagcaacgcg gcctttttac ggttcctggc cttttgctgg ccttttgctc
+      721 acatgttctt tcctgcgtta tcccctgatt ctgtggataa ccgtAGTCGG TCTCAGAGTA
+      781 GATCgcgggG GAGGGAGGGa TTCTTCtAGG CCCAGGGCGG TCCTTAggAG ACaGGAGGCA
+      841 GCcGAGAACT CCCATAAAGG TATTGCGGCA CTCCCCTCCC CCTaCCgAGA AGGGTGCGGC
+      901 CTTCTCTCCg CCTCCTCCAC tGCAGaTCCC TCAGGATTGC AGCTCGCGCC GaTTTTcaGA
+      961 GATCAcGCaC CTCCCtCCCA CAAACCAGCa GGACCGACCC CCGCTCCTCC CCCcACCTCC
+     1021 gCGAGTccgc gagcggatcc agctcATCTC GtCCTTCAGG CGGcGGacgC CCgGGACGGA
+     1081 GCCgCGGtCG CCGCCAcCCA GAAGcCTCGA CCcaGCAGTC CGcctccgcc tccgcctccg
+     1141 CCTCTAGTGC GTGCGCAGGG GCGCGGGGcC AGACACTGCG GCGCggGGCc TCGGGaAGGA
+     1201 CCGTACCAAC GaCCGCCTCC CTgCCCCTCC GCcCCCTctg ctgacccGCt CAGTGGTTTC
+     1261 GCTCAattgg gacccgagcc aatggcaagg ggccgttccc cggcttcagc agccaatcag
+     1321 gtgccgaagc cacacgggcg gcgggtaacc ctactccccg cgagggtttt cccagtcacg
+     1381 acCCGATGAG ACCagaccaa taaaaaacgc ccggcggcaa ccgagcgttc tgaacaaatc
+     1441 cagatggagt tctgaggtca ttactggatc tatcaacagg agtccaagcg agctcgatat
+     1501 caaattacgc cccgccctgc cactcatcgc agtactgttg taattcatta agcattctgc
+     1561 cgacatggaa gccatcacaa acggcatgat gaacctgaat cgccagcggc atcagcacct
+     1621 tgtcgccttg cgtataatat ttgcccatgg tgaaaacggg ggcgaagaag ttgtccatat
+     1681 tggccacgtt taaatcaaaa ctggtgaaac tcacccaggg attggctgaa acgaaaaaca
+     1741 tattctcaat aaacccttta gggaaatagg ccaggttttc accgtaacac gccacatctt
+     1801 gcgaatatat gtgtagaaac tgccggaaat cgtcgtggta ttcactccag agcgatgaaa
+     1861 acgtttcagt ttgctcatgg aaaacggtgt aacaagggtg aacactatcc catatcacca
+     1921 gctcaccgtc tttcattgcc atacgaaatt ccggatgagc attcatcagg cgggcaagaa
+     1981 tgtgaataaa ggccggataa aacttgtgct tatttttctt tacggtcttt aaaaaggccg
+     2041 taatatccag ctgaacggtc tggttatagg tacattgagc aactgactga aatgcctcaa
+     2101 aatgttcttt acgatgccat tgggatatat caacggtggt atatccagtg atttttttct
+     2161 ccattttagc ttccttagct cctgaaaatc tcgataactc aaaaaatacg cccggtagtg
+     2221 atcttatttc attatggtga aagttggaac ctcttacgtg cccgatcaa
+//

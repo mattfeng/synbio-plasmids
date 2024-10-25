@@ -1,0 +1,103 @@
+LOCUS       MTK234_037              2094 bp ds-DNA     circular     21-FEB-2019
+DEFINITION  .
+ACCESSION   <unknown id>                                                       
+VERSION     <unknown id>                                                       
+KEYWORDS    "sgRNA Dropout"                                                    
+FEATURES             Location/Qualifiers
+     misc_recomb     931..964
+                     /label="LoxP recombination site"
+                     /ApEinfo_revcolor=#c7b0e3
+                     /ApEinfo_fwdcolor=#c7b0e3
+     misc_feature    737..1045
+                     /label="mU6 promoter (modified)"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     promoter        complement(1947..2051)
+                     /label="CamR Promoter"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     misc_feature    1052..1071
+                     /label="pUAS guide"
+                     /ApEinfo_revcolor=#c7b0e3
+                     /ApEinfo_fwdcolor=#c7b0e3
+     CDS             complement(1287..1946)
+                     /label="CamR"
+                     /ApEinfo_revcolor=#0000ff
+                     /ApEinfo_fwdcolor=#0000ff
+     protein_bind    complement(1170..1175)
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     protein_bind    complement(1165..1168)
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     protein_bind    733..736
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     protein_bind    726..731
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     terminator      complement(1178..1286)
+                     /label="CamR Terminator"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     misc_feature    1046..1072
+                     /label="GuideRNA"
+                     /ApEinfo_revcolor=#c7b0e3
+                     /ApEinfo_fwdcolor=#c7b0e3
+     rep_origin      complement(join(2052..2094,1..721))
+                     /label="ColE1"
+                     /ApEinfo_revcolor=#7f7f7f
+                     /ApEinfo_fwdcolor=#7f7f7f
+     misc_feature    1085..1096
+                     /label="modified stem loop"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     misc_feature    1098..1164
+                     /label="modified stem loop"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     misc_feature    1073..1083
+                     /label="modified stem loop"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+ORIGIN
+        1 gtcagacccc gtagaaaaga tcaaaggatc ttcttgagat cctttttttc tgcgcgtaat
+       61 ctgctgcttg caaacaaaaa aaccaccgct accagcggtg gtttgtttgc cggatcaaga
+      121 gctaccaact ctttttccga aggtaactgg cttcagcaga gcgcagatac caaatactgt
+      181 tcttctagtg tagccgtagt taggccacca cttcaagaac tctgtagcac cgcctacata
+      241 cctcgctctg ctaatcctgt taccagtggc tgctgccagt ggcgataagt cgtgtcttac
+      301 cgggttggac tcaagacgat agttaccgga taaggcgcag cggtcgggct gaacgggggg
+      361 ttcgtgcaca cagcccagct tggagcgaac gacctacacc gaactgagat acctacagcg
+      421 tgagctatga gaaagcgcca cgcttcccga agggagaaag gcggacaggt atccggtaag
+      481 cggcagggtc ggaacaggag agcgcacgag ggagcttcca gggggaaacg cctggtatct
+      541 ttatagtcct gtcgggtttc gccacctctg acttgagcgt cgatttttgt gatgctcgtc
+      601 aggggggcgg agcctatgga aaaacgccag caacgcggcc tttttacggt tcctggcctt
+      661 ttgctggcct tttgctcaca tgttctttcc tgcgttatcc cctgattctg tggataaccg
+      721 tagtcggtct cAaacggatc cgacgcgcca tctctaggcc cgcgccggcc ccctcgcacg
+      781 gacttgtggg agaagctcgg ctactcccct gccccggtta atttgcatat aatatttcct
+      841 agtaactata gaggcttaat gtgcgataaa agacagataa tctgttcttt ttaatactag
+      901 ctacatttta catgataggc ttggatttct ataacttcgt atagcataca ttatacgaag
+      961 ttataaacag cacaaaagga aactcaccct aactgtaaag taattgtgtg ttttgagact
+     1021 ataaGtatcc cttggagaaC CAcctTGTTT GGAGCACTGT CCTCCGAACG TGTTTAAGAG
+     1081 CTAAGCTGGA AACAGCATAG CAAGTTTAAA TAAGGCTAGT CCGTTATCAA CTTGAAAAAG
+     1141 TGGCACCGAG TCGGTGCTTT TTTTgctgtg agaccagacc aataaaaaac gcccggcggc
+     1201 aaccgagcgt tctgaacaaa tccagatgga gttctgaggt cattactgga tctatcaaca
+     1261 ggagtccaag cgagctcgat atcaaattac gccccgccct gccactcatc gcagtactgt
+     1321 tgtaattcat taagcattct gccgacatgg aagccatcac aaacggcatg atgaacctga
+     1381 atcgccagcg gcatcagcac cttgtcgcct tgcgtataat atttgcccat ggtgaaaacg
+     1441 ggggcgaaga agttgtccat attggccacg tttaaatcaa aactggtgaa actcacccag
+     1501 ggattggctg aaacgaaaaa catattctca ataaaccctt tagggaaata ggccaggttt
+     1561 tcaccgtaac acgccacatc ttgcgaatat atgtgtagaa actgccggaa atcgtcgtgg
+     1621 tattcactcc agagcgatga aaacgtttca gtttgctcat ggaaaacggt gtaacaaggg
+     1681 tgaacactat cccatatcac cagctcaccg tctttcattg ccatacgaaa ttccggatga
+     1741 gcattcatca ggcgggcaag aatgtgaata aaggccggat aaaacttgtg cttatttttc
+     1801 tttacggtct ttaaaaaggc cgtaatatcc agctgaacgg tctggttata ggtacattga
+     1861 gcaactgact gaaatgcctc aaaatgttct ttacgatgcc attgggatat atcaacggtg
+     1921 gtatatccag tgattttttt ctccatttta gcttccttag ctcctgaaaa tctcgataac
+     1981 tcaaaaaata cgcccggtag tgatcttatt tcattatggt gaaagttgga acctcttacg
+     2041 tgcccgatca atcatgacca aaatccctta acgtgagttt tcgttccact gagc
+//

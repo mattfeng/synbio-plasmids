@@ -1,0 +1,71 @@
+LOCUS       MTK3a_008               1917 bp ds-DNA     circular     21-FEB-2019
+DEFINITION  .
+ACCESSION   <unknown id>                                                       
+VERSION     <unknown id>                                                       
+FEATURES             Location/Qualifiers
+     protein_bind    complement(1015..1020)
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     misc_feature    complement(1023..1131)
+                     /label="CamR Terminator"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     CDS             complement(1132..1791)
+                     /label="CamR"
+                     /ApEinfo_revcolor=#0000ff
+                     /ApEinfo_fwdcolor=#0000ff
+     misc_feature    882..887
+                     /label="c-Jun(1-281)"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     misc_feature    759..878
+                     /label="ERKDS"
+                     /ApEinfo_revcolor=#ff3444
+                     /ApEinfo_fwdcolor=#ff3444
+     rep_origin      complement(join(1897..1917,1..743))
+                     /label="ColE1"
+                     /ApEinfo_revcolor=#7f7f7f
+                     /ApEinfo_fwdcolor=#7f7f7f
+     protein_bind    748..753
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     promoter        complement(1792..1896)
+                     /label="CamR Promoter"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+ORIGIN
+        1 gtgagttttc gttccactga gcgtcagacc ccgtagaaaa gatcaaagga tcttcttgag
+       61 atcctttttt tctgcgcgta atctgctgct tgcaaacaaa aaaaccaccg ctaccagcgg
+      121 tggtttgttt gccggatcaa gagctaccaa ctctttttcc gaaggtaact ggcttcagca
+      181 gagcgcagat accaaatact gttcttctag tgtagccgta gttaggccac cacttcaaga
+      241 actctgtagc accgcctaca tacctcgctc tgctaatcct gttaccagtg gctgctgcca
+      301 gtggcgataa gtcgtgtctt accgggttgg actcaagacg atagttaccg gataaggcgc
+      361 agcggtcggg ctgaacgggg ggttcgtgca cacagcccag cttggagcga acgacctaca
+      421 ccgaactgag atacctacag cgtgagctat gagaaagcgc cacgcttccc gaagggagaa
+      481 aggcggacag gtatccggta agcggcaggg tcggaacagg agagcgcacg agggagcttc
+      541 cagggggaaa cgcctggtat ctttatagtc ctgtcgggtt tcgccacctc tgacttgagc
+      601 gtcgattttt gtgatgctcg tcaggggggc ggagcctatg gaaaaacgcc agcaacgcgg
+      661 cctttttacg gttcctggcc ttttgctggc cttttgctca catgttcttt cctgcgttat
+      721 cccctgattc tgtggataac cgtagtcggt ctcaTATGAA GGGCCGAAAG CCTCGGGACC
+      781 TGGAACTTCC ACTTAGCCCA AGCCTGCTGG GTGGCCAGGG ACCTGAACGG ACTCCAGGAT
+      841 CAGGAACAAG CTCTGGTCTT CAGGCACCGG GGCCAGCGCT TTCGCCCAGC AAGCGTAGCG
+      901 GaCTCGAGGA CCCAGCGACG CCATCGAAGA AGCCACGTAC CCCATCGGTG TCGTCAAGGC
+      961 TGGAGCGCCT GACCCTCCAG TCCAGCTTTC AATTCCCATC CactagtGGT TCTtgagacc
+     1021 agaccaataa aaaacgcccg gcggcaaccg agcgttctga acaaatccag atggagttct
+     1081 gaggtcatta ctggatctat caacaggagt ccaagcgagc tcgatatcaa attacgcccc
+     1141 gccctgccac tcatcgcagt actgttgtaa ttcattaagc attctgccga catggaagcc
+     1201 atcacaaacg gcatgatgaa cctgaatcgc cagcggcatc agcaccttgt cgccttgcgt
+     1261 ataatatttg cccatggtga aaacgggggc gaagaagttg tccatattgg ccacgtttaa
+     1321 atcaaaactg gtgaaactca cccagggatt ggctgaaacg aaaaacatat tctcaataaa
+     1381 ccctttaggg aaataggcca ggttttcacc gtaacacgcc acatcttgcg aatatatgtg
+     1441 tagaaactgc cggaaatcgt cgtggtattc actccagagc gatgaaaacg tttcagtttg
+     1501 ctcatggaaa acggtgtaac aagggtgaac actatcccat atcaccagct caccgtcttt
+     1561 cattgccata cgaaattccg gatgagcatt catcaggcgg gcaagaatgt gaataaaggc
+     1621 cggataaaac ttgtgcttat ttttctttac ggtctttaaa aaggccgtaa tatccagctg
+     1681 aacggtctgg ttataggtac attgagcaac tgactgaaat gcctcaaaat gttctttacg
+     1741 atgccattgg gatatatcaa cggtggtata tccagtgatt tttttctcca ttttagcttc
+     1801 cttagctcct gaaaatctcg ataactcaaa aaatacgccc ggtagtgatc ttatttcatt
+     1861 atggtgaaag ttggaacctc ttacgtgccc gatcaatcat gaccaaaatc ccttaac
+//

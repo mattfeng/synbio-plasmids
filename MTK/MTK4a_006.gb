@@ -1,0 +1,73 @@
+LOCUS       MTK4a_006               1687 bp ds-DNA     circular     22-FEB-2019
+DEFINITION  .
+ACCESSION   <unknown id>                                                       
+VERSION     <unknown id>                                                       
+KEYWORDS    "mRuby2:CDS-4a"                                                    
+FEATURES             Location/Qualifiers
+     promoter        complement(1129..1233)
+                     /label="CamR Promoter"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     rep_origin      complement(join(1234..1687,1..310))
+                     /label="ColE1"
+                     /ApEinfo_revcolor=#7f7f7f
+                     /ApEinfo_fwdcolor=#7f7f7f
+     protein_bind    322..325
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     ER marker       326..337
+                     /label="KDEL"
+                     /ApEinfo_revcolor=#f58a5e
+                     /ApEinfo_fwdcolor=#f58a5e
+     CDS             complement(469..1128)
+                     /label="CamR"
+                     /ApEinfo_revcolor=#0000ff
+                     /ApEinfo_fwdcolor=#0000ff
+     protein_bind    315..320
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     terminator      complement(360..468)
+                     /label="CamR Terminator"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     protein_bind    complement(352..357)
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     protein_bind    complement(347..350)
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+ORIGIN
+        1 cctacagcgt gagctatgag aaagcgccac gcttcccgaa gggagaaagg cggacaggta
+       61 tccggtaagc ggcagggtcg gaacaggaga gcgcacgagg gagcttccag ggggaaacgc
+      121 ctggtatctt tatagtcctg tcgggtttcg ccacctctga cttgagcgtc gatttttgtg
+      181 atgctcgtca ggggggcgga gcctatggaa aaacgccagc aacgcggcct ttttacggtt
+      241 cctggccttt tgctggcctt ttgctcacat gttctttcct gcgttatccc ctgattctgt
+      301 ggataaccgt agtcggtctc aatccaagga cgagctgtaa ctcgagtggc tgagaccaga
+      361 ccaataaaaa acgcccggcg gcaaccgagc gttctgaaca aatccagatg gagttctgag
+      421 gtcattactg gatctatcaa caggagtcca agcgagctcg atatcaaatt acgccccgcc
+      481 ctgccactca tcgcagtact gttgtaattc attaagcatt ctgccgacat ggaagccatc
+      541 acaaacggca tgatgaacct gaatcgccag cggcatcagc accttgtcgc cttgcgtata
+      601 atatttgccc atggtgaaaa cgggggcgaa gaagttgtcc atattggcca cgtttaaatc
+      661 aaaactggtg aaactcaccc agggattggc tgaaacgaaa aacatattct caataaaccc
+      721 tttagggaaa taggccaggt tttcaccgta acacgccaca tcttgcgaat atatgtgtag
+      781 aaactgccgg aaatcgtcgt ggtattcact ccagagcgat gaaaacgttt cagtttgctc
+      841 atggaaaacg gtgtaacaag ggtgaacact atcccatatc accagctcac cgtctttcat
+      901 tgccatacga aattccggat gagcattcat caggcgggca agaatgtgaa taaaggccgg
+      961 ataaaacttg tgcttatttt tctttacggt ctttaaaaag gccgtaatat ccagctgaac
+     1021 ggtctggtta taggtacatt gagcaactga ctgaaatgcc tcaaaatgtt ctttacgatg
+     1081 ccattgggat atatcaacgg tggtatatcc agtgattttt ttctccattt tagcttcctt
+     1141 agctcctgaa aatctcgata actcaaaaaa tacgcccggt agtgatctta tttcattatg
+     1201 gtgaaagttg gaacctctta cgtgcccgat caatcatgac caaaatccct taacgtgagt
+     1261 tttcgttcca ctgagcgtca gaccccgtag aaaagatcaa aggatcttct tgagatcctt
+     1321 tttttctgcg cgtaatctgc tgcttgcaaa caaaaaaacc accgctacca gcggtggttt
+     1381 gtttgccgga tcaagagcta ccaactcttt ttccgaaggt aactggcttc agcagagcgc
+     1441 agataccaaa tactgttctt ctagtgtagc cgtagttagg ccaccacttc aagaactctg
+     1501 tagcaccgcc tacatacctc gctctgctaa tcctgttacc agtggctgct gccagtggcg
+     1561 ataagtcgtg tcttaccggg ttggactcaa gacgatagtt accggataag gcgcagcggt
+     1621 cgggctgaac ggggggttcg tgcacacagc ccagcttgga gcgaacgacc tacaccgaac
+     1681 tgagata
+//

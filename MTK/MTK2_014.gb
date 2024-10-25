@@ -1,0 +1,92 @@
+LOCUS       MTK2_014                1921 bp ds-DNA     circular     06-AUG-2019
+DEFINITION  .
+ACCESSION   <unknown id>                                                       
+VERSION     <unknown id>                                                       
+FEATURES             Location/Qualifiers
+     misc_feature    402..651
+                     /label="GAL4-UAS promotor"
+                     /ApEinfo_revcolor=#d6b295
+                     /ApEinfo_fwdcolor=#d6b295
+     promoter        534..651
+                     /label="mCMV"
+                     /ApEinfo_revcolor=#c6c9d1
+                     /ApEinfo_fwdcolor=#c6c9d1
+     CDS             complement(779..1438)
+                     /label="CamR"
+                     /ApEinfo_revcolor=#0000ff
+                     /ApEinfo_fwdcolor=#0000ff
+     misc_feature    508..527
+                     /label="Gal4"
+                     /ApEinfo_revcolor=#b4abac
+                     /ApEinfo_fwdcolor=#b4abac
+     misc_feature    597..597
+                     /label="g-->c, remove BSmbI"
+                     /ApEinfo_revcolor=#85dae9
+                     /ApEinfo_fwdcolor=#85dae9
+     misc_feature    408..422
+                     /label="added after sequencing"
+                     /ApEinfo_revcolor=#9eafd2
+                     /ApEinfo_fwdcolor=#9eafd2
+     misc_feature    528..533
+                     /label="SpeI"
+                     /ApEinfo_revcolor=#b4abac
+                     /ApEinfo_fwdcolor=#b4abac
+     rep_origin      complement(join(1544..1921,1..389))
+                     /label="ColE1"
+                     /ApEinfo_revcolor=#7f7f7f
+                     /ApEinfo_fwdcolor=#7f7f7f
+     misc_feature    391..397
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b7e6d7
+                     /ApEinfo_fwdcolor=#b7e6d7
+     misc_feature    402..487
+                     /label="Gal4"
+                     /ApEinfo_revcolor=#b4abac
+                     /ApEinfo_fwdcolor=#b4abac
+     misc_feature    complement(670..778)
+                     /label="CamR Terminator"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     promoter        complement(1439..1543)
+                     /label="CamR Promoter"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     misc_feature    662..667
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+ORIGIN
+        1 cgcagcggtc gggctgaacg gggggttcgt gcacacagcc cagcttggag cgaacgacct
+       61 acaccgaact gagataccta cagcgtgagc tatgagaaag cgccacgctt cccgaaggga
+      121 gaaaggcgga caggtatccg gtaagcggca gggtcggaac aggagagcgc acgagggagc
+      181 ttccaggggg aaacgcctgg tatctttata gtcctgtcgg gtttcgccac ctctgacttg
+      241 agcgtcgatt tttgtgatgc tcgtcagggg ggcggagcct atggaaaaac gccagcaacg
+      301 cggccttttt acggttcctg gccttttgct ggccttttgc tcacatgttc tttcctgcgt
+      361 tatcccctga ttctgtggat aaccGTAgtc GGTCTCaAAC GggagcaCTG TCCTCCGAAC
+      421 GTcggagcac tgtcctccga acgtcggagc actgtcctcc gaacgtcgga gcactgtcct
+      481 ccgaacgGAG CATGTCCTCC GAACGTCGGA GCACTGTCCT CCGAACGact agttaggcgt
+      541 gtacggtggg aggcctatat aagcagagct cgtttagtga accgtcagat cgcctgCaga
+      601 cgccatccac gctgttttga cctccataga agacaccggg accgatccag cgccAcTATG
+      661 tGAGACCaga ccaataaaaa acgcccggcg gcaaccgagc gttctgaaca aatccagatg
+      721 gagttctgag gtcattactg gatctatcaa caggagtcca agcgagctcg atatcaaatt
+      781 acgccccgcc ctgccactca tcgcagtact gttgtaattc attaagcatt ctgccgacat
+      841 ggaagccatc acaaacggca tgatgaacct gaatcgccag cggcatcagc accttgtcgc
+      901 cttgcgtata atatttgccc atggtgaaaa cgggggcgaa gaagttgtcc atattggcca
+      961 cgtttaaatc aaaactggtg aaactcaccc agggattggc tgaaacgaaa aacatattct
+     1021 caataaaccc tttagggaaa taggccaggt tttcaccgta acacgccaca tcttgcgaat
+     1081 atatgtgtag aaactgccgg aaatcgtcgt ggtattcact ccagagcgat gaaaacgttt
+     1141 cagtttgctc atggaaaacg gtgtaacaag ggtgaacact atcccatatc accagctcac
+     1201 cgtctttcat tgccatacga aattccggat gagcattcat caggcgggca agaatgtgaa
+     1261 taaaggccgg ataaaacttg tgcttatttt tctttacggt ctttaaaaag gccgtaatat
+     1321 ccagctgaac ggtctggtta taggtacatt gagcaactga ctgaaatgcc tcaaaatgtt
+     1381 ctttacgatg ccattgggat atatcaacgg tggtatatcc agtgattttt ttctccattt
+     1441 tagcttcctt agctcctgaa aatctcgata actcaaaaaa tacgcccggt agtgatctta
+     1501 tttcattatg gtgaaagttg gaacctctta cgtgcccgat caatcatgac caaaatccct
+     1561 taacgtgagt tttcgttcca ctgagcgtca gaccccgtag aaaagatcaa aggatcttct
+     1621 tgagatcctt tttttctgcg cgtaatctgc tgcttgcaaa caaaaaaacc accgctacca
+     1681 gcggtggttt gtttgccgga tcaagagcta ccaactcttt ttccgaaggt aactggcttc
+     1741 agcagagcgc agataccaaa tactgttctt ctagtgtagc cgtagttagg ccaccacttc
+     1801 aagaactctg tagcaccgcc tacatacctc gctctgctaa tcctgttacc agtggctgct
+     1861 gccagtggcg ataagtcgtg tcttaccggg ttggactcaa gacgatagtt accggataag
+     1921 g
+//

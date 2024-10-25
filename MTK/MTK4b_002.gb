@@ -1,0 +1,67 @@
+LOCUS       MTK4b_002               1796 bp ds-DNA     circular     22-FEB-2019
+DEFINITION  .
+ACCESSION   <unknown id>                                                       
+VERSION     <unknown id>                                                       
+KEYWORDS    "Name:SV40 Polyadenylation signal" "Part:Part4b - Terminator"      
+            "Location:1" "Resistance:Cam"
+FEATURES             Location/Qualifiers
+     CDS             complement(266..925)
+                     /label="CamR"
+                     /ApEinfo_revcolor=#0000ff
+                     /ApEinfo_fwdcolor=#0000ff
+     misc_feature    complement(157..265)
+                     /label="CamR Terminator"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     protein_bind    complement(149..154)
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     Terminator      14..143
+                     /label="SV40-PA"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     rep_origin      complement(1031..1794)
+                     /label="ColE1"
+                     /ApEinfo_revcolor=#7f7f7f
+                     /ApEinfo_fwdcolor=#7f7f7f
+     protein_bind    3..8
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     promoter        complement(926..1030)
+                     /label="CamR Promoter"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+ORIGIN
+        1 tcggtctcaT GGCgatccag acatgataag atacattgat gagtttggac aaaccacaac
+       61 tagaatgcag tgaaaaaaat gctttatttg tgaaatttgt gatgctattg ctttatttgt
+      121 aaccattata agctgcaata aacGCTGtga gaccagacca ataaaaaacg cccggcggca
+      181 accgagcgtt ctgaacaaat ccagatggag ttctgaggtc attactggat ctatcaacag
+      241 gagtccaagc gagctcgata tcaaattacg ccccgccctg ccactcatcg cagtactgtt
+      301 gtaattcatt aagcattctg ccgacatgga agccatcaca aacggcatga tgaacctgaa
+      361 tcgccagcgg catcagcacc ttgtcgcctt gcgtataata tttgcccatg gtgaaaacgg
+      421 gggcgaagaa gttgtccata ttggccacgt ttaaatcaaa actggtgaaa ctcacccagg
+      481 gattggctga aacgaaaaac atattctcaa taaacccttt agggaaatag gccaggtttt
+      541 caccgtaaca cgccacatct tgcgaatata tgtgtagaaa ctgccggaaa tcgtcgtggt
+      601 attcactcca gagcgatgaa aacgtttcag tttgctcatg gaaaacggtg taacaagggt
+      661 gaacactatc ccatatcacc agctcaccgt ctttcattgc catacgaaat tccggatgag
+      721 cattcatcag gcgggcaaga atgtgaataa aggccggata aaacttgtgc ttatttttct
+      781 ttacggtctt taaaaaggcc gtaatatcca gctgaacggt ctggttatag gtacattgag
+      841 caactgactg aaatgcctca aaatgttctt tacgatgcca ttgggatata tcaacggtgg
+      901 tatatccagt gatttttttc tccattttag cttccttagc tcctgaaaat ctcgataact
+      961 caaaaaatac gcccggtagt gatcttattt cattatggtg aaagttggaa cctcttacgt
+     1021 gcccgatcaa tcatgaccaa aatcccttaa cgtgagtttt cgttccactg agcgtcagac
+     1081 cccgtagaaa agatcaaagg atcttcttga gatccttttt ttctgcgcgt aatctgctgc
+     1141 ttgcaaacaa aaaaaccacc gctaccagcg gtggtttgtt tgccggatca agagctacca
+     1201 actctttttc cgaaggtaac tggcttcagc agagcgcaga taccaaatac tgttcttcta
+     1261 gtgtagccgt agttaggcca ccacttcaag aactctgtag caccgcctac atacctcgct
+     1321 ctgctaatcc tgttaccagt ggctgctgcc agtggcgata agtcgtgtct taccgggttg
+     1381 gactcaagac gatagttacc ggataaggcg cagcggtcgg gctgaacggg gggttcgtgc
+     1441 acacagccca gcttggagcg aacgacctac accgaactga gatacctaca gcgtgagcta
+     1501 tgagaaagcg ccacgcttcc cgaagggaga aaggcggaca ggtatccggt aagcggcagg
+     1561 gtcggaacag gagagcgcac gagggagctt ccagggggaa acgcctggta tctttatagt
+     1621 cctgtcgggt ttcgccacct ctgacttgag cgtcgatttt tgtgatgctc gtcagggggg
+     1681 cggagcctat ggaaaaacgc cagcaacgcg gcctttttac ggttcctggc cttttgctgg
+     1741 ccttttgctc acatgttctt tcctgcgtta tcccctgatt ctgtggataa ccgtag
+//

@@ -1,0 +1,73 @@
+LOCUS       MTK234_001              1703 bp ds-DNA     circular     21-FEB-2019
+DEFINITION  .
+ACCESSION   <unknown id>                                                       
+VERSION     <unknown id>                                                       
+KEYWORDS    "Spacer"                                                           
+FEATURES             Location/Qualifiers
+     protein_bind    complement(56..61)
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     terminator      complement(64..172)
+                     /label="CamR Terminator"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     protein_bind    3..8
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     promoter        complement(833..937)
+                     /label="CamR Promoter"
+                     /ApEinfo_revcolor=#84b0dc
+                     /ApEinfo_fwdcolor=#84b0dc
+     rep_origin      complement(938..1701)
+                     /label="ColE1"
+                     /ApEinfo_revcolor=#7f7f7f
+                     /ApEinfo_fwdcolor=#7f7f7f
+     protein_bind    complement(51..54)
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     protein_bind    10..13
+                     /label="BsaI"
+                     /ApEinfo_revcolor=#b1ff67
+                     /ApEinfo_fwdcolor=#b1ff67
+     misc_feature    14..50
+                     /label="Spacer"
+                     /ApEinfo_revcolor=#c6c9d1
+                     /ApEinfo_fwdcolor=#c6c9d1
+     CDS             complement(173..832)
+                     /label="CamR"
+                     /ApEinfo_revcolor=#0000ff
+                     /ApEinfo_fwdcolor=#0000ff
+ORIGIN
+        1 tcggtctcaa acgactagag atctatgtga ggatcctaac tcgagatcga gctgtgagac
+       61 cagaccaata aaaaacgccc ggcggcaacc gagcgttctg aacaaatcca gatggagttc
+      121 tgaggtcatt actggatcta tcaacaggag tccaagcgag ctcgatatca aattacgccc
+      181 cgccctgcca ctcatcgcag tactgttgta attcattaag cattctgccg acatggaagc
+      241 catcacaaac ggcatgatga acctgaatcg ccagcggcat cagcaccttg tcgccttgcg
+      301 tataatattt gcccatggtg aaaacggggg cgaagaagtt gtccatattg gccacgttta
+      361 aatcaaaact ggtgaaactc acccagggat tggctgaaac gaaaaacata ttctcaataa
+      421 accctttagg gaaataggcc aggttttcac cgtaacacgc cacatcttgc gaatatatgt
+      481 gtagaaactg ccggaaatcg tcgtggtatt cactccagag cgatgaaaac gtttcagttt
+      541 gctcatggaa aacggtgtaa caagggtgaa cactatccca tatcaccagc tcaccgtctt
+      601 tcattgccat acgaaattcc ggatgagcat tcatcaggcg ggcaagaatg tgaataaagg
+      661 ccggataaaa cttgtgctta tttttcttta cggtctttaa aaaggccgta atatccagct
+      721 gaacggtctg gttataggta cattgagcaa ctgactgaaa tgcctcaaaa tgttctttac
+      781 gatgccattg ggatatatca acggtggtat atccagtgat ttttttctcc attttagctt
+      841 ccttagctcc tgaaaatctc gataactcaa aaaatacgcc cggtagtgat cttatttcat
+      901 tatggtgaaa gttggaacct cttacgtgcc cgatcaatca tgaccaaaat cccttaacgt
+      961 gagttttcgt tccactgagc gtcagacccc gtagaaaaga tcaaaggatc ttcttgagat
+     1021 cctttttttc tgcgcgtaat ctgctgcttg caaacaaaaa aaccaccgct accagcggtg
+     1081 gtttgtttgc cggatcaaga gctaccaact ctttttccga aggtaactgg cttcagcaga
+     1141 gcgcagatac caaatactgt tcttctagtg tagccgtagt taggccacca cttcaagaac
+     1201 tctgtagcac cgcctacata cctcgctctg ctaatcctgt taccagtggc tgctgccagt
+     1261 ggcgataagt cgtgtcttac cgggttggac tcaagacgat agttaccgga taaggcgcag
+     1321 cggtcgggct gaacgggggg ttcgtgcaca cagcccagct tggagcgaac gacctacacc
+     1381 gaactgagat acctacagcg tgagctatga gaaagcgcca cgcttcccga agggagaaag
+     1441 gcggacaggt atccggtaag cggcagggtc ggaacaggag agcgcacgag ggagcttcca
+     1501 gggggaaacg cctggtatct ttatagtcct gtcgggtttc gccacctctg acttgagcgt
+     1561 cgatttttgt gatgctcgtc aggggggcgg agcctatgga aaaacgccag caacgcggcc
+     1621 tttttacggt tcctggcctt ttgctggcct tttgctcaca tgttctttcc tgcgttatcc
+     1681 cctgattctg tggataaccg tag
+//

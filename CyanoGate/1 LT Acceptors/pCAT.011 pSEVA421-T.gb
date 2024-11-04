@@ -1,0 +1,162 @@
+LOCUS       Exported                4355 bp ds-DNA     circular SYN 17-OCT-2018
+DEFINITION  synthetic circular DNA.
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 4355)
+  AUTHORS   SynthSys Center
+  TITLE     Direct Submission
+  JOURNAL   Exported Oct 17, 2018 from SnapGene 4.2.5
+            http://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..4355
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     protein_bind    121..142
+                     /label=CAP binding site
+                     /bound_moiety="E. coli catabolite activator protein"
+                     /note="CAP binding activates transcription in the presence 
+                     of cAMP."
+     promoter        157..187
+                     /label=lac promoter
+                     /note="promoter for the E. coli lac operon"
+     protein_bind    195..211
+                     /label=lac operator
+                     /bound_moiety="lac repressor encoded by lacI"
+                     /note="The lac repressor binds to the lac operator to 
+                     inhibit transcription in E. coli. This inhibition can be 
+                     relieved by adding lactose or 
+                     isopropyl-beta-D-thiogalactopyranoside (IPTG)."
+     CDS             231..554
+                     /codon_start=1
+                     /gene="lacZ fragment"
+                     /product="LacZ-alpha fragment of beta-galactosidase"
+                     /label=lacZ-alpha
+                     /translation="MTMITPSLHACRSTLEDPRVPSSNSLAVVLQRRDWENPGVTQLNR
+                     LAAHPPFASWRNSEEARTDRPSQQLRSLNGEWRLMRYFLLTHLCGISHRIWCTLSTICS
+                     DAA"
+     misc_feature    248..304
+                     /label=MCS
+                     /note="pUC18/19 multiple cloning site"
+     misc_feature    608..611
+                     /label=GGGA
+     terminator      612..706
+                     /label=lambda t0 terminator
+                     /note="transcription terminator from phage lambda"
+     CDS             942..1733
+                     /codon_start=1
+                     /gene="aadA"
+                     /product="aminoglycoside adenylyltransferase (Murphy, 
+                     1985)"
+                     /label=SpecR
+                     /label=SmR
+                     /note="confers resistance to spectinomycin and 
+                     streptomycin"
+                     /translation="MREAVIAEVSTQLSEVVGVIERHLEPTLLAVHLYGSAVDGGLKPH
+                     SDIDLLVTVTVRLDETTRRALINDLLETSASPGESEILRAVEVTIVVHDDIIPWRYPAK
+                     RELQFGEWQRNDILAGIFEPATIDIDLAILLTKAREHSVALVGPAAEELFDPVPEQDLF
+                     EALNETLTLWNSPPDWAGDERNVVLTLSRIWYSAVTGKIAPKDVAADWAMERLPAQYQP
+                     VILEARQAYLGQEEDRLASRADQLEEFVHYVKGEITKVVGK"
+     oriT            1879..1987
+                     /label=incP origin of transfer
+                     /note="incP origin of transfer"
+     CDS             complement(2048..3196)
+                     /codon_start=1
+                     /product="trans-acting replication protein that binds to 
+                     and activates oriV"
+                     /label=trfA
+                     /translation="MNRTFDRKAYRQELIDAGFSAEDAETIASRTVMRAPRETFQSVGS
+                     IVQQATAKIERDSVQLAPPALPAPSAAVERSRRLEQEAAGLAKSMTIDTRGTMTTKKRK
+                     TAGEDLAKQVSEAKQAALLKHTKQQIKEMQLSLFDIAPWPDTMRAMPNDTARSALFTTR
+                     NKKIPREALQNKVIFHVNKDVKITYTGVELRADDDELVWQQVLEYAKRTPIGEPITFTF
+                     YELCQDLGWSINGRYYTKAEECLSRLQATAMGFTSDRVGHLESVSLLHRFRVLDRGKKT
+                     SRCQVLIDEEIVVLFAGDHYTKFIWEKYRKLSPTARRMFDYFSSHREPYPLKLETFRLM
+                     CGSDSTRVKKWREQVGEACEELRGSGLVEHAWVNDDLVHCKR"
+     rep_origin      3589..4120
+                     /label=oriV
+                     /note="incP origin of replication"
+     terminator      4247..4333
+                     /gene="Escherichia coli rrnB"
+                     /label=rrnB T1 terminator
+                     /note="transcription terminator T1 from the E. coli rrnB 
+                     gene"
+     misc_feature    4340..4343
+                     /label=TGCC
+ORIGIN
+        1 ttaagaagcg gaagagcgcc caatacgcaa accgcctctc cccgcgcgtt ggccgattca
+       61 ttaatgcagc tggcacgaca ggtttcccga ctggaaagcg ggcagtgagc gcaacgcaat
+      121 taatgtgagt tagctcactc attaggcacc ccaggcttta cactttatgc ttccggctcg
+      181 tatgttgtgt ggaattgtga gcggataaca atttcacaca ggaaacagct atgaccatga
+      241 ttacgccaag cttgcatgcc tgcaggtcga ctctagagga tccccgggta ccgagctcga
+      301 attcactggc cgtcgtttta caacgtcgtg actgggaaaa ccctggcgtt acccaactta
+      361 atcgccttgc agcacatccc cctttcgcca gctggcgtaa tagcgaagag gcccgcaccg
+      421 atcgcccttc ccaacagttg cgcagcctga atggcgaatg gcgcctgatg cggtattttc
+      481 tccttacgca tctgtgcggt atttcacacc gcatatggtg cactctcagt acaatctgct
+      541 ctgatgccgc atagttaagc cagccccgac acccgccaac acccgctgaa ctagtcttgg
+      601 aagactcggg agactcctgt tgatagatcc agtaatgacc tcagaactcc atctggattt
+      661 gttcagaacg ctcggttgcc gccgggcgtt ttttattggt gagaatccag gggtccccaa
+      721 taattacgat ttacgtattt aaatgaacct tgaccgaacg cagcggtggt aacggcgcag
+      781 tggcggtttt catggcttgt tatgactgtt tttttggggt acagtctatg cctcgggcat
+      841 ccaagcagca agcgcgttac gccgtgggtc gatgtttgat gttatggagc agcaacgatg
+      901 ttacgcagca gggcagtcgc cctaaaacaa agttaaacat catgagggaa gcggtgatcg
+      961 ccgaagtatc gactcaacta tcagaggtag ttggcgtcat cgagcgccat ctcgaaccga
+     1021 cgttgctggc cgtacatttg tacggctccg cagtggatgg cggcctgaag ccacacagtg
+     1081 atattgattt gctggttacg gtgaccgtaa ggcttgatga aacaacgcgg cgagctttga
+     1141 tcaacgacct tttggaaact tcggcttccc ctggagagag cgagattctc cgcgctgtag
+     1201 aagtcaccat tgttgtgcac gacgacatca ttccgtggcg ttatccagct aagcgcgaac
+     1261 tgcaatttgg agaatggcag cgcaatgaca ttcttgcagg tatcttcgag ccagccacga
+     1321 tcgacattga tctggctatc ttgctgacaa aagcaagaga acatagcgtt gccttggtag
+     1381 gtccagcggc ggaggaactc tttgatccgg ttcctgaaca ggatctattt gaggcgctaa
+     1441 atgaaacctt aacgctatgg aactcgccgc ccgactgggc tggcgatgag cgaaatgtag
+     1501 tgcttacgtt gtcccgcatt tggtacagcg cagtaaccgg caaaatcgcg ccgaaggatg
+     1561 tcgctgccga ctgggcaatg gagcgcctgc cggcccagta tcagcccgtc atacttgaag
+     1621 ctagacaggc ttatcttgga caagaagaag atcgcttggc ctcgcgcgca gatcagttgg
+     1681 aagaatttgt ccactacgtg aaaggcgaga tcaccaaggt agtcggcaaa taagacaatt
+     1741 gtccttttcc gctgcataac cctgcttcgg ggtcattata gcgatttttt cggtatatcc
+     1801 atcctttttc gcacgatata caggattttg ccaaagggtt cgtgtagact ttccttggtg
+     1861 tatccaacgg cgtcagccgg gcaggatagg tgaagtaggc ccacccgcga gcgggtgttc
+     1921 cttcttcact gtcccttatt cgcacctggc ggtgctcaac gggaatcctg ctctgcgagg
+     1981 ctggccgtag gccggccgcg atgcaggtgg ctgctgaacc cccagccgga actgacccca
+     2041 caaggcccta gcgtttgcaa tgcaccaggt catcattgac ccaggcgtgt tccaccaggc
+     2101 cgctgcctcg caactcttcg caggcttcgc cgacctgctc gcgccacttc ttcacgcggg
+     2161 tggaatccga tccgcacatg aggcggaagg tttccagctt gagcgggtac ggctcccggt
+     2221 gcgagctgaa atagtcgaac atccgtcggg ccgtcggcga cagcttgcgg tacttctccc
+     2281 atatgaattt cgtgtagtgg tcgccagcaa acagcacgac gatttcctcg tcgatcagga
+     2341 cctggcaacg ggacgttttc ttgccacggt ccaggacgcg gaagcggtgc agcagcgaca
+     2401 ccgattccag gtgcccaacg cggtcggacg tgaagcccat cgccgtcgcc tgtaggcgcg
+     2461 acaggcattc ctcggccttc gtgtaatacc ggccattgat cgaccagccc aggtcctggc
+     2521 aaagctcgta gaacgtgaag gtgatcggct cgccgatagg ggtgcgcttc gcgtactcca
+     2581 acacctgctg ccacaccagt tcgtcatcgt cggcccgcag ctcgacgccg gtgtaggtga
+     2641 tcttcacgtc cttgttgacg tggaaaatga ccttgttttg cagcgcctcg cgcgggattt
+     2701 tcttgttgcg cgtggtgaac agggcagagc gggccgtgtc gtttggcatc gctcgcatcg
+     2761 tgtccggcca cggcgcaata tcgaacaagg aaagctgcat ttccttgatc tgctgcttcg
+     2821 tgtgtttcag caacgcggcc tgcttggctt cgctgacctg ttttgccagg tcctcgccgg
+     2881 cggtttttcg cttcttggtc gtcatagttc ctcgcgtgtc gatggtcatc gacttcgcca
+     2941 aacctgccgc ctcctgttcg agacgacgcg aacgctccac ggcggccgat ggcgcgggca
+     3001 gggcaggggg agccagttgc acgctgtcgc gctcgatctt ggccgtagct tgctggacta
+     3061 tcgagccgac ggactggaag gtttcgcggg gcgcacgcat gacggtgcgg cttgcgatgg
+     3121 tttcggcatc ctcggcggaa aaccccgcgt cgatcagttc ttgcctgtat gccttccggt
+     3181 caaacgtccg attcattcac cctccttgcg ggattgcccc ggaattaatt ccccggatcg
+     3241 atccgtcgat cttgatcccc tgcgccatca gatccttggc ggcaagaaag ccatccagtt
+     3301 tactttgcag ggcttcccaa ccttaccaga gggcgcccca gctggcaatt ccggttcgct
+     3361 tgctgtccat aaaaccgccc agtctagcta tcgccatgta agcccactgc aagctacctg
+     3421 ctttctcttt gcgcttgcgt tttcccttgt ccagatagcc cagtagctga cattcatccg
+     3481 gggtcagcac cgtttctgcg gactggcttt ctacgtggct gccatttttg gggtgaggcc
+     3541 gttcgcggcc gaggggcgca gcccctgggg ggatgggagg cccgcgttag cgggccggga
+     3601 gggttcgaga agggggggca ccccccttcg gcgtgcgcgg tcacgcgcac agggcgcagc
+     3661 cctggttaaa aacaaggttt ataaatattg gtttaaaagc aggttaaaag acaggttagc
+     3721 ggtggccgaa aaacgggcgg aaacccttgc aaatgctgga ttttctgcct gtggacagcc
+     3781 cctcaaatgt caataggtgc gcccctcatc tgtcagcact ctgcccctca agtgtcaagg
+     3841 atcgcgcccc tcatctgtca gtagtcgcgc ccctcaagtg tcaataccgc agggcactta
+     3901 tccccaggct tgtccacatc atctgtggga aactcgcgta aaatcaggcg ttttcgccga
+     3961 tttgcgaggc tggccagctc cacgtcgccg gccgaaatcg agcctgcccc tcatctgtca
+     4021 acgccgcgcc gggtgagtcg gcccctcaag tgtcaacgtc cgcccctcat ctgtcagtga
+     4081 gggccaagtt ttccgcgagg tatccacaac gccggcggcc ctacatggct ctgctgtagt
+     4141 gagtgggttg cgctccggca gcggtcctga tcccccgcag aaaaaaagga tctcaagaag
+     4201 atcctttgat cttttctacg gcgcgcccag ctgtctaggg cggcggattt gtcctactca
+     4261 ggagagcgtt caccgacaaa caacagataa aacgaaaggc ccagtctttc gactgagcct
+     4321 ttcgttttat ttgatgcctt gccgagtctt cttaa
+//
+  Y     K         Unique 6+ Cutters                                                                                                     HO  d              E              ÿÿÿÿYô?                                                                                                                                                             

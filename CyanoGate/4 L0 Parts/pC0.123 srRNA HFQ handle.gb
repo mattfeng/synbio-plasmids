@@ -1,0 +1,87 @@
+LOCUS       Exported                2333 bp ds-DNA     circular SYN 14-MAR-2019
+DEFINITION  synthetic circular DNA.
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 2333)
+  AUTHORS   ravi
+  TITLE     Direct Submission
+  JOURNAL   Exported Thursday, Mar 14, 2019 from SnapGene 4.3.4
+            https://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..2333
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     source          2237..2326
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     CDS             220..1230
+                     /codon_start=1
+                     /gene="aadA"
+                     /product="aminoglycoside adenylyltransferase (Murphy, 
+                     1985)"
+                     /label=SpecR
+                     /label=SmR
+                     /note="confers resistance to spectinomycin and 
+                     streptomycin"
+                     /translation="MRSRNWSRTLTERSGGNGAVAVFMACYDCFFGVQSMPRASKQQAR
+                     YAVGRCLMLWSSNDVTQQGSRPKTKLNIMREAVIAEVSTQLSEVVGVIERHLEPTLLAV
+                     HLYGSAVDGGLKPHSDIDLLVTVTVRLDETTRRALINDLLETSASPGESEILRAVEVTI
+                     VVHDDIIPWRYPAKRELQFGEWQRNDILAGIFEPATIDIDLAILLTKAREHSVALVGPA
+                     AEELFDPVPEQDLFEALNETLTLWNSPPDWAGDERNVVLTLSRIWYSAVTGKIAPKDVA
+                     ADWAMERLPAQYQPVILEARQAYLGQEEDRLASRADQLEEFVHYVKGEITKVVGK"
+     rep_origin      1401..1989
+                     /label=ori (pMB1)
+                     /label=ori
+                     /note="high-copy-number ColE1/pMB1/pBR322/pUC origin of 
+                     replication"
+     misc_feature    2237..2240
+                     /label=GTTT
+     misc_feature    2238..2322
+                     /label=srRNA HFQ handle
+                     /label=HFQ binding site
+     misc_feature    2323..2326
+                     /label=CGCT
+ORIGIN
+        1 acgaagtggc tcttcagtgg acgaaagggc ctcgtgatac gcctattttt ataggttaat
+       61 gtcatgataa taatggtttc ttagacgtca ggtggcactt ttcggggaaa tgtgcgcgga
+      121 acccctattt gtttattttt ctaaatacat tcaaatatgt atccgctcat gagacaataa
+      181 ccctgataaa tgcttcaata atattgaaaa aggaagagta tgcgctcacg caactggtcc
+      241 agaaccttga ccgaacgcag cggtggtaac ggcgcagtgg cggttttcat ggcttgttat
+      301 gactgttttt ttggggtaca gtctatgcct cgggcatcca agcagcaagc gcgttacgcc
+      361 gtgggtcgat gtttgatgtt atggagcagc aacgatgtta cgcagcaggg cagtcgccct
+      421 aaaacaaagt taaacatcat gagggaagcg gtgatcgccg aagtatcgac tcaactatca
+      481 gaggtagttg gcgtcatcga gcgccatctc gaaccgacgt tgctggccgt acatttgtac
+      541 ggctccgcag tggatggcgg cctgaagcca cacagcgata ttgatttgct ggttacggtg
+      601 accgtaaggc ttgatgaaac aacgcggcga gctttgatca acgacctttt ggaaacttcg
+      661 gcttcccctg gagagagcga gattctccgc gctgtagaag tcaccattgt tgtgcacgac
+      721 gacatcattc cgtggcgtta tccagctaag cgcgaactgc aatttggaga atggcagcgc
+      781 aatgacattc ttgcaggtat cttcgagcca gccacgatcg acattgatct ggctatcttg
+      841 ctgacaaaag caagagaaca tagcgttgcc ttggtaggtc cagcggcgga ggaactcttt
+      901 gatccggttc ctgaacagga tctatttgag gcgctaaatg aaaccttaac gctatggaac
+      961 tcgccgcccg actgggctgg cgatgagcga aatgtagtgc ttacgttgtc ccgcatttgg
+     1021 tacagcgcag taaccggcaa aatcgcgccg aaggatgtcg ctgccgactg ggcaatggag
+     1081 cgcctgccgg cccagtatca gcccgtcata cttgaagcta gacaggctta tcttggacaa
+     1141 gaagaagatc gcttggcctc gcgcgcagat cagttggaag aatttgtcca ttacgtaaaa
+     1201 ggcgagatca ccaaggtagt cggcaaataa ctgtcagacc aagtttactc atatatactt
+     1261 tagattgatt taaaacttca tttttaattt aaaaggatct aggtgaagat cctttttgat
+     1321 aatctcatga ccaaaatccc ttaacgtgag ttttcgttcc actgagcgtc agaccccgta
+     1381 gaaaagatca aaggatcttc ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa
+     1441 acaaaaaaac caccgctacc agcggtggtt tgtttgccgg atcaagagct accaactctt
+     1501 tttccgaagg taactggctt cagcagagcg cagataccaa atactgttct tctagtgtag
+     1561 ccgtagttag gccaccactt caagaactct gtagcaccgc ctacatacct cgctctgcta
+     1621 atcctgttac cagtggctgc tgccagtggc gataagtcgt gtcttaccgg gttggactca
+     1681 agacgatagt taccggataa ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag
+     1741 cccagcttgg agcgaacgac ctacaccgaa ctgagatacc tacagcgtga gctatgagaa
+     1801 agcgccacgc ttcccgaagg gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga
+     1861 acaggagagc gcacgaggga gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc
+     1921 gggtttcgcc acctctgact tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc
+     1981 ctatggaaaa acgccagcaa cgcggccttt ttacggttcc tggccttttg ctggcctttt
+     2041 gctcacatgt tctttcctgc gttatcccct gattctgtgg ataaccgtat taccgccttt
+     2101 gagtgagctg ataccgctcg ccgcagccga acgaccgagc gcagcgagtc agtgagcgag
+     2161 gaagcggaag agcgcccaat acgcaaaccg cctctccccg cgcgttggcc gattcattaa
+     2221 tcactctgtg gtctctgttt ctgttgggcc attgcattgc cactgatttt ccaacatata
+     2281 aaaagacaag cccgaacagt cgtccgggct ttttttctcg agcgctagag acc
+//

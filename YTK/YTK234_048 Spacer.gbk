@@ -1,56 +1,46 @@
-LOCUS       pYTK048                 1703 bp ds-DNA     circular     18-DEC-2014
+LOCUS       YTK234_048_Space        1703 bp    DNA     circular SYN 14-JAN-2025
 DEFINITION  .
-ACCESSION   <unknown id>
-VERSION     <unknown id>
+ACCESSION   <unknown
+VERSION     .
 KEYWORDS    .
-SOURCE      .
-  ORGANISM  . .
-COMMENT     
-COMMENT     ApEinfo:methylated:1
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 1703)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jan 15, 2025 from SnapGene 8.0.0
+            https://www.snapgene.com
 FEATURES             Location/Qualifiers
-     rep_origin      complement(938..1701)
-                     /label=ColE1
-                     /ApEinfo_fwdcolor=#7F7F7F
-                     /ApEinfo_revcolor=#7F7F7F
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     CDS             complement(173..832)
-                     /label=CamR
-                     /ApEinfo_fwdcolor=#0000FF
-                     /ApEinfo_revcolor=#0000FF
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     promoter        complement(833..937)
-                     /label=CamR Promoter
-                     /ApEinfo_fwdcolor=#66CCFF
-                     /ApEinfo_revcolor=#66CCFF
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     terminator      complement(64..172)
-                     /label=CamR Terminator
-                     /ApEinfo_fwdcolor=#66CCFF
-                     /ApEinfo_revcolor=#66CCFF
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
+     source          1..1703
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+     misc_feature    join(3..8,10..13)
+                     /label=BsaI
+                     /note="This forward directional feature has 2 segments:
+                        1:  3 ..  8 / #00ff2c
+                        2: 10 .. 13 / #00ff2c"
      misc_feature    14..50
                      /label=Spacer
-                     /ApEinfo_fwdcolor=#B7C1C4
-                     /ApEinfo_revcolor=#B7C1C4
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     protein_bind    join(3..8,10..13)
-                     /label=BsaI
-                     /ApEinfo_fwdcolor=#00FF2C
-                     /ApEinfo_revcolor=#E72E00
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
+                     /note="color: #b7c1c4"
      protein_bind    complement(join(51..54,56..61))
+                     /label=BsaI
                      /label=BsaI(1)
-                     /ApEinfo_label=BsaI
-                     /ApEinfo_fwdcolor=#00FF2C
-                     /ApEinfo_revcolor=#E72E00
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
+                     /note="This reverse directional feature has 2 segments:
+                        1: 51 .. 54 / #e72e00
+                        2: 56 .. 61 / #e72e00"
+     terminator      complement(64..172)
+                     /label=CamR Terminator
+                     /note="color: #66ccff; direction: LEFT"
+     CDS             complement(173..832)
+                     /label=CamR
+                     /note="color: #0000ff; direction: LEFT"
+     promoter        complement(833..937)
+                     /label=CamR Promoter
+                     /note="color: #66ccff; direction: LEFT"
+     rep_origin      complement(938..1701)
+                     /direction=LEFT
+                     /label=ColE1
+                     /note="color: #7f7f7f"
 ORIGIN
         1 tcggtctcaa acgactagag atctatgtga ggatcctaac tcgagatcga gctgtgagac
        61 cagaccaata aaaaacgccc ggcggcaacc gagcgttctg aacaaatcca gatggagttc
@@ -80,5 +70,5 @@ ORIGIN
      1501 gggggaaacg cctggtatct ttatagtcct gtcgggtttc gccacctctg acttgagcgt
      1561 cgatttttgt gatgctcgtc aggggggcgg agcctatgga aaaacgccag caacgcggcc
      1621 tttttacggt tcctggcctt ttgctggcct tttgctcaca tgttctttcc tgcgttatcc
-     1681 cctgattctg tggataaccg tag   
+     1681 cctgattctg tggataaccg tag
 //

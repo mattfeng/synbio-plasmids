@@ -1,3 +1,5 @@
+*.csv
+
 # General
 .DS_Store
 .AppleDouble

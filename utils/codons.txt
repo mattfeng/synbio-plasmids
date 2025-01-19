@@ -1,0 +1,21 @@
+Alanine: GCA,GCC,GCG,GCT
+Arginine: AGA,AGG,CGA,CGC,CGG,CGT
+Asparagine: AAC,AAT
+Aspartic Acid: GAC,GAT
+Cysteine: TGC,TGT
+Glutamic Acid: GAA,GAG
+Glutamine: CAA,CAG
+Glycine: GGA,GGC,GGG,GGT
+Histidine: CAC,CAT
+Isoleucine: ATA,ATC,ATT
+Leucine: CTA,CTC,CTG,CTT,TTA,TTG
+Lysine: AAA,AAG
+Methionine: ATG
+Phenylalanine: TTC,TTT
+Proline: CCA,CCC,CCG,CCT
+Serine: AGC,AGT,TCA,TCC,TCG,TCT
+Threonine: ACA,ACC,ACG,ACT
+Tryptophan: TGG
+Tyrosine: TAC,TAT
+Valine: GTA,GTC,GTG,GTT
+Stop: TAA,TAG,TGA

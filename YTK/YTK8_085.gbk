@@ -1,68 +1,46 @@
-LOCUS       pYTK085                 2848 bp ds-DNA     circular     18-DEC-2014
-DEFINITION  .
-ACCESSION   <unknown id>
-VERSION     <unknown id>
+LOCUS       YTK8_085                2848 bp    DNA     circular SYN 21-JAN-2025
+DEFINITION  synthetic circular DNA
+ACCESSION   <unknown
+VERSION     .
 KEYWORDS    .
-SOURCE      .
-  ORGANISM  . .
-COMMENT     
-COMMENT     ApEinfo:methylated:1
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 2848)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Jan 21, 2025 from SnapGene 8.0.1
+            https://www.snapgene.com
 FEATURES             Location/Qualifiers
-     rep_origin      complement(1167..1930)
-                     /label=ColE1
-                     /ApEinfo_fwdcolor=#7F7F7F
-                     /ApEinfo_revcolor=#7F7F7F
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     CDS             complement(22..1032)
-                     /label=SpecR
-                     /ApEinfo_fwdcolor=#FFFF00
-                     /ApEinfo_revcolor=#FFFF00
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     promoter        complement(1033..1166)
-                     /label=SpecR Promoter
-                     /ApEinfo_fwdcolor=#CBB300
-                     /ApEinfo_revcolor=#CBB300
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     terminator      2718..2846
-                     /label=BBa_B0015 Terminator
-                     /ApEinfo_fwdcolor=#9EFF91
-                     /ApEinfo_revcolor=#9EFF91
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     promoter        1952..2005
-                     /label=Bba_R0040 TetR Promoter
-                     /ApEinfo_fwdcolor=#FF9D9A
-                     /ApEinfo_revcolor=#FF9D9A
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     RBS             2006..2030
-                     /label=mRFP1 Ribsosome Binding Site
-                     /ApEinfo_fwdcolor=#FF9D9A
-                     /ApEinfo_revcolor=#FF9D9A
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
-     CDS             2031..2708
-                     /label=mRFP1
-                     /ApEinfo_fwdcolor=#C16969
-                     /ApEinfo_revcolor=#C16969
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
+     source          1..2848
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
      protein_bind    join(3..8,10..13)
                      /label=BsaI
-                     /ApEinfo_fwdcolor=#00FF2C
-                     /ApEinfo_revcolor=#E72E00
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
+     CDS             complement(22..1032)
+                     /codon_start=1
+                     /label=SpecR
+                     /translation="MRSRNWSRTLTERSGGNGAVAVFMACYDCFFGVQSMPRASKQQAR
+                     YAVGRCLMLWSSNDVTQQGSRPKTKLNIMREAVIAEVSTQLSEVVGVIERHLEPTLLAV
+                     HLYGSAVDGGLKPHSDIDLLVTVTVRLDETTRRALINDLLETSASPGESEILRAVEVTI
+                     VVHDDIIPWRYPAKRELQFGEWQRNDILAGIFEPATIDIDLAILLTKAREHSVALVGPA
+                     AEELFDPVPEQDLFEALNETLTLWNSPPDWAGDERNVVLTLSRIWYSAVTGKIAPKDVA
+                     ADWAMERLPAQYQPVILEARQAYLGQEEDRLASRADQLEEFVHYVKGEITKVVGK"
+     promoter        complement(1033..1166)
+                     /label=SpecR Promoter
+     rep_origin      complement(1167..1930)
+                     /direction=LEFT
+                     /label=ColE1
      protein_bind    complement(join(1939..1942,1944..1949))
+                     /label=BsaI
                      /label=BsaI(1)
-                     /ApEinfo_label=BsaI
-                     /ApEinfo_fwdcolor=#00FF2C
-                     /ApEinfo_revcolor=#E72E00
-                     /ApEinfo_graphicformat=arrow_data {{0 1 2 0 0 -1} {} 0}
-                     width 5 offset 0
+     promoter        1952..2005
+                     /label=Bba_R0040 TetR Promoter
+     RBS             2006..2030
+                     /label=mRFP1 Ribsosome Binding Site
+     CDS             2031..2708
+                     /label=mRFP1
+     terminator      2718..2846
+                     /label=BBa_B0015 Terminator
 ORIGIN
         1 tcggtctcac cgagcggccg cttatttgcc gactaccttg gtgatctcgc ctttcacgta
        61 gtggacaaat tcttccaact gatctgcgcg cgaggccaag cgatcttctt cttgtccaag
@@ -111,5 +89,5 @@ ORIGIN
      2641 acaacgaaga ctacaccatc gttgaacagt acgaacgtgc tgaaggtcgt cactccaccg
      2701 gtgcttaata aggatctcca ggcatcaaat aaaacgaaag gctcagtcga aagactgggc
      2761 ctttcgtttt atctgttgtt tgtcggtgaa cgctctctac tagagtcaca ctggctcacc
-     2821 ttcgggtggg cctttctgcg tttataag   
+     2821 ttcgggtggg cctttctgcg tttataag
 //

@@ -6,8 +6,9 @@ from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 from Bio.SeqFeature import SeqFeature, FeatureLocation
 
-
-snapgene_file = "4bp/4bp_A.dna"
+snapgene_file = "4bp/4bp_B.dna"
+output_dir = "4bp/B"
+output_template = "pUMC-B{}{}-A{}{}.gbk"
 
 record = SeqIO.read(snapgene_file, "snapgene")
 
@@ -16,10 +17,12 @@ print(f"Sequence: {record.seq}")
 print(f"Description: {record.description}")
 print(f"Length: {len(record.seq)}")
 
-outer_5_idx = 76
-outer_3_idx = 923
-inner_5_idx = 80
-inner_3_idx = 919
+outer_5_idx = 68
+outer_3_idx = 915
+inner_5_idx = 72
+inner_3_idx = 911
+
+old_overhang_len = 4
 
 overhangs = {
     1: "GGAG",
@@ -106,10 +109,10 @@ for out_type in all_pairs(6):
 
         seq = list(record.seq)
 
-        seq[outer_5_idx - 1:outer_5_idx + 3] = list(outer_5)
-        seq[outer_3_idx - 1:outer_3_idx + 3] = list(outer_3)
-        seq[inner_5_idx - 1:inner_5_idx + 3] = list(inner_5)
-        seq[inner_3_idx - 1:inner_3_idx + 3] = list(inner_3)
+        seq[outer_5_idx - 1:outer_5_idx + old_overhang_len - 1] = list(outer_5)
+        seq[outer_3_idx - 1:outer_3_idx + old_overhang_len - 1] = list(outer_3)
+        seq[inner_5_idx - 1:inner_5_idx + old_overhang_len - 1] = list(inner_5)
+        seq[inner_3_idx - 1:inner_3_idx + old_overhang_len - 1] = list(inner_3)
 
         record.seq = Seq("".join(seq))
 
@@ -118,13 +121,13 @@ for out_type in all_pairs(6):
             record = delete_range_from_seqrecord(
                 record,
                 inner_5_idx - 1,
-                inner_5_idx + 3
+                inner_5_idx + old_overhang_len - 1
                 )
         if out_3_type == in_3_type:
             record = delete_range_from_seqrecord(
                 record,
                 inner_3_idx - 1,
-                inner_3_idx + 3
+                inner_3_idx + old_overhang_len - 1
                 )
 
-        SeqIO.write(record, f"4bp/A/pUMC-A{in_5_type}{in_3_type}-B{out_5_type}{out_3_type}.gbk", "genbank")
+        SeqIO.write(record, f"{output_dir}/{output_template.format(in_5_type, in_3_type, out_5_type, out_3_type)}", "genbank")

@@ -9,7 +9,7 @@ from Bio.SeqFeature import SeqFeature, FeatureLocation
 # ~~~ 4bp_B ~~~
 # snapgene_file = "4bp/4bp_B.dna"
 # output_dir = "4bp/B"
-# output_template = "pUMC-B{}{}-A{}{}.gbk"
+# output_template = "pUMC4-B{}{}-A{}{}.gbk"
 #
 # num_fragments = 4
 #
@@ -29,30 +29,30 @@ from Bio.SeqFeature import SeqFeature, FeatureLocation
 # old_overhang_len = 4
 
 # ~~~ 3bp_A ~~~
-snapgene_file = "3bp/3bp_A.dna"
-output_dir = "3bp/A"
-output_template = "pUMC-A{}{}-B{}{}.gbk"
+# snapgene_file = "3bp/3bp_A.dna"
+# output_dir = "3bp/A"
+# output_template = "pUMC3-A{}{}-B{}{}.gbk"
 
-num_fragments = 3
+# num_fragments = 3
 
-overhangs = {
-    1: "AGT",
-    2: "GGC",
-    3: "GGG",
-    4: "TCG",
-}
+# overhangs = {
+#     1: "AGT",
+#     2: "GGC",
+#     3: "GGG",
+#     4: "TCG",
+# }
 
-outer_5_idx = 77
-outer_3_idx = 943
-inner_5_idx = 80
-inner_3_idx = 940
+# outer_5_idx = 77
+# outer_3_idx = 943
+# inner_5_idx = 80
+# inner_3_idx = 940
 
-old_overhang_len = 3
+# old_overhang_len = 3
 
 # ~~~ 3bp_B ~~~
 # snapgene_file = "3bp/3bp_B.dna"
 # output_dir = "3bp/B"
-# output_template = "pUMC-B{}{}-A{}{}.gbk"
+# output_template = "pUMC3-B{}{}-A{}{}.gbk"
 
 # num_fragments = 3
 

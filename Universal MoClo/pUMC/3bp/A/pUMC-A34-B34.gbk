@@ -1,0 +1,202 @@
+LOCUS       Annotated               3755 bp    DNA     circular SYN 21-JAN-2025
+DEFINITION  Annotated with pLannotate v1.2.2.
+ACCESSION   Annotated
+VERSION     Annotated
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     source          1..3755
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+                     /label="source"
+     misc_feature    47..68
+                     /label="BioBrick prefix"
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=100.0"
+                     /note="/match_length=100.0"
+                     /note="/other=misc_feature"
+     RBS             102..122
+                     /label="RBS"
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=100.0"
+                     /note="/match_length=100.0"
+                     /note="/other=RBS"
+     CDS             139..849
+                     /codon_start=1
+                     /label="superfolder GFP"
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=99.9"
+                     /note="/match_length=99.6"
+                     /note="/other=CDS"
+                     /transl_table=1
+                     /translation="RKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLTLKF
+                     ICTTGKLPVPWPTLVTTLTYGVQCFARYPDHMKQHDFFKSAMPEGYVQERTISFKDDGT
+                     YKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYITADKQKNGIKAN
+                     FKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVLLEF
+                     VTAAGITHGMDELYK"
+     misc_feature    909..923
+                     /label="BioBrick suffix"
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=100.0"
+                     /note="/match_length=100.0"
+                     /note="/other=misc_feature"
+     CDS             1150..1962
+                     /codon_start=1
+                     /label="aphA1"
+                     /note="pLannotate"
+                     /note="/database=swissprot"
+                     /note="/fragment=False"
+                     /note="/identity=99.6"
+                     /note="/match_length=100.0"
+                     /note="/other=CDS"
+                     /transl_table=1
+                     /translation="MSHIQRETSCSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYG
+                     KPDAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGK
+                     TAFQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVDA
+                     SDFDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGI
+                     ADRYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF"
+     oriT            2132..2240
+                     /label="oriT"
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=100.0"
+                     /note="/match_length=99.1"
+                     /note="/other=oriT"
+     rep_origin      2276..2864
+                     /direction=RIGHT
+                     /label="ori"
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=100.0"
+                     /note="/match_length=100.0"
+                     /note="/other=rep_origin"
+     misc_feature    complement(3050..3190)
+                     /label="bom"
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=100.0"
+                     /note="/match_length=100.0"
+                     /note="/other=misc_feature"
+     CDS             complement(3292..3483)
+                     /codon_start=1
+                     /label="rop"
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=99.5"
+                     /note="/match_length=100.0"
+                     /note="/other=CDS"
+                     /transl_table=1
+                     /translation="VTKQEKTALNMARFIRSQTLTLLEKLNELDADEQADICESLHDHA
+                     DELYRSCLARFGDDGENL*"
+     CDS             3524..3634
+                     /codon_start=1
+                     /label="mbeC (fragment)"
+                     /note="pLannotate"
+                     /note="/database=swissprot"
+                     /note="/fragment=True"
+                     /note="/identity=100.0"
+                     /note="/match_length=32.2"
+                     /note="/other=CDS"
+                     /transl_table=1
+                     /translation="MIPMKRERMLTIRVTDDEHARLLERCEGKQLAVWMRR"
+     terminator      complement(3663..3749)
+                     /label="rrnB T1 terminator"
+                     /note="pLannotate"
+                     /note="/database=snapgene"
+                     /note="/fragment=False"
+                     /note="/identity=100.0"
+                     /note="/match_length=100.0"
+                     /note="/other=terminator"
+     misc_feature    69..75
+                     /label="SapI rec site"
+     misc_feature    77..79
+                     /label="5' scar"
+     misc_feature    902..908
+                     /label="SapI rec site"
+     misc_feature    880..890
+                     /label="BsaXI rec site"
+     source          898..900
+                     /mol_type="other DNA"
+                     /organism="synthetic DNA construct"
+                     /label="source"
+     misc_feature    898..900
+                     /label="3' scar"
+ORIGIN
+        1 ttaattaagg agttttgcag gtgccttgga acacctgctt ttcgctgaat tcgcggccgc
+       61 ttctagaggc tcttctgggc ctaggtacag tgctagcgta cttgtttaac tttaagaagg
+      121 agatatacaa tggtagcccg taaaggcgaa gagctgttca ctggtgtcgt ccctattctg
+      181 gtggaactgg atggtgatgt caacggtcat aagttttccg tgcgtggcga gggtgaaggt
+      241 gacgcaacta atggtaaact gacgctgaag ttcatctgta ctactggtaa actgccggta
+      301 ccttggccga ctctggtaac gacgctgact tatggtgttc agtgctttgc tcgttatccg
+      361 gaccatatga agcagcatga cttcttcaag tccgccatgc cggaaggcta tgtgcaggaa
+      421 cgcacgattt cctttaagga tgacggcacg tacaaaacgc gtgcggaagt gaaatttgaa
+      481 ggcgataccc tggtaaaccg cattgagctg aaaggcattg actttaaaga agatggcaat
+      541 atcctgggcc ataagctgga atacaatttt aacagccaca atgtttacat caccgccgat
+      601 aaacaaaaaa atggcattaa agcgaatttt aaaattcgcc acaacgtgga ggatggcagc
+      661 gtgcagctgg ctgatcacta ccagcaaaac actccaatcg gtgatggtcc tgttctgctg
+      721 ccagacaatc actatctgag cacgcaaagc gttctgtcta aagatccgaa cgagaaacgc
+      781 gatcatatgg ttctgctgga gttcgtaacc gcagcgggca tcacgcatgg tatggatgaa
+      841 ctgtacaaag gttcgtaact tctgactgag ttgcacgcta cgctagctcc atcgctaggc
+      901 gggtcgggcg ggtcgggcgg gtcggggtcg gggtcgtcgt ccagtaatga cctcagaact
+      961 ccatctggat ttgttcagaa cgctcggttg ccgccgggcg ttttttattg gtgagaatcc
+     1021 aggggtcccc aataattacg atttaaattt gtgtctcaaa atctctgatg ttacattgca
+     1081 caagataaaa atatatcatc atgaacaata aaactgtctg cttacataaa cagtaataca
+     1141 aggggtgtta tgagccatat tcagcgtgaa acgagctgta gccgtccgcg tctgaacagc
+     1201 aacatggatg cggatctgta tggctataaa tgggcgcgtg ataacgtggg tcagagcggc
+     1261 gcgaccattt atcgtctgta tggcaaaccg gatgcgccgg aactgtttct gaaacatggc
+     1321 aaaggcagcg tggcgaacga tgtgaccgat gaaatggtgc gtctgaactg gctgaccgaa
+     1381 tttatgccgc tgccgaccat taaacatttt attcgcaccc cggatgatgc gtggctgctg
+     1441 accaccgcga ttccgggcaa aaccgcgttt caggtgctgg aagaatatcc ggatagcggc
+     1501 gaaaacattg tggatgcgct ggccgtgttt ctgcgtcgtc tgcatagcat tccggtgtgc
+     1561 aactgcccgt ttaacagcga tcgtgtgttt cgtctggccc aggcgcagag ccgtatgaac
+     1621 aacggcctgg tggatgcgag cgattttgat gatgaacgta acggctggcc ggtggaacag
+     1681 gtgtggaaag aaatgcataa actgctgccg tttagcccgg atagcgtggt gacccacggc
+     1741 gattttagcc tggataacct gattttcgat gaaggcaaac tgattggctg cattgatgtg
+     1801 ggccgtgtgg gcattgcgga tcgttatcag gatctggcca ttctgtggaa ctgcctgggc
+     1861 gaatttagcc cgagcctgca aaaacgtctg tttcagaaat atggcattga taatccggat
+     1921 atgaacaaac tgcaatttca tctgatgctg gatgaatttt tctaataatt aattggaccg
+     1981 cggtccgcgc gttgtccttt tccgctgcat aaccctgctt cggggtcatt atagcgattt
+     2041 tttcggtata tccatccttt ttcgcacgat atacaggatt ttgccaaagg gttcgtgtag
+     2101 actttccttg gtgtatccaa cggcgtcagc cgggcaggat aggtgaagta ggcccacccg
+     2161 cgagcgggtg ttccttcttc actgtccctt attcgcacct ggcggtgctc aacgggaatc
+     2221 ctgctctgcg aggctggccg taggccggcc ccgtagaaaa gatcaaagga tcttcttgag
+     2281 atcctttttt tctgcgcgta atctgctgct tgcaaacaaa aaaaccaccg ctaccagcgg
+     2341 tggtttgttt gccggatcaa gagctaccaa ctctttttcc gaaggtaact ggcttcagca
+     2401 gagcgcagat accaaatact gtccttctag tgtagccgta gttaggccac cacttcaaga
+     2461 actctgtagc accgcctaca tacctcgctc tgctaatcct gttaccagtg gctgctgcca
+     2521 gtggcgataa gtcgtgtctt accgggttgg actcaagacg atagttaccg gataaggcgc
+     2581 agcggtcggg ctgaacgggg ggttcgtgca cacagcccag cttggagcga acgacctaca
+     2641 ccgaactgag atacctacag cgtgagctat gagaaagcgc cacgcttccc gaagggagaa
+     2701 aggcggacag gtatccggta agcggcaggg tcggaacagg agagcgcacg agggagcttc
+     2761 cagggggaaa cgcctggtat ctttatagtc ctgtcgggtt tcgccacctc tgacttgagc
+     2821 gtcgattttt gtgatgctcg tcaggggggc ggagcctatg gaaaaacgcc agcaacgcgg
+     2881 cctttttacg gttcctggcc ttttgctggc cttttgctca catgttcttt cctgcgttat
+     2941 cccctgattc tgtggataac cgtattaccg cctttgagtg agctgatacc gctcgccgca
+     3001 gccgaacgac cgagcgcagc gagtcagtga gcgaggaagc ggaagagcgc ctgatgcggt
+     3061 attttctcct tacgcatctg tgcggtattt cacaccgcat atggtgcact ctcagtacaa
+     3121 tctgctctga tgccgcatag ttaagccagt atacactccg ctatcgctac gtgactgggt
+     3181 catggctgcg ccccgacacc cgccaacacc cgctgacgcg ccctgacggg cttgtctgct
+     3241 cccggcatcc gcttacagac aagctgtgac agtctccggg agctgcatgt gtcagaggtt
+     3301 ttcaccgtca tcaccgaaac gcgcgaggca gctgcggtaa agctcatcag cgtggtcgtg
+     3361 cagcgattca cagatgtctg cctgttcatc cgcgtccagc tcgttgagtt tctccagaag
+     3421 cgttaatgtc tggcttctga taaagcgggc catgttaagg gcggtttttt cctgtttggt
+     3481 cactgatgcc tccgtgtaag ggggatttct gttcatgggg gtaatgatac cgatgaaacg
+     3541 agagaggatg ctcacgatac gggttactga tgatgaacat gcccggttac tggaacgttg
+     3601 tgagggtaaa caactggcgg tatggatgcg gcgggggcgc gcccagctgt ctagggcggc
+     3661 ggatttgtcc tactcaggag agcgttcacc gacaaacaac agataaaacg aaaggcccag
+     3721 tctttcgact gagcctttcg ttttatttga tgcct
+//

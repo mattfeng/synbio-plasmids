@@ -6,36 +6,82 @@ from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 from Bio.SeqFeature import SeqFeature, FeatureLocation
 
-snapgene_file = "4bp/4bp_B.dna"
-output_dir = "4bp/B"
-output_template = "pUMC-B{}{}-A{}{}.gbk"
+# ~~~ 4bp_B ~~~
+# snapgene_file = "4bp/4bp_B.dna"
+# output_dir = "4bp/B"
+# output_template = "pUMC-B{}{}-A{}{}.gbk"
+#
+# num_fragments = 4
+#
+# overhangs = {
+#     1: "GGAG",
+#     2: "TACT",
+#     3: "AATG",
+#     4: "GCTT",
+#     5: "CGCT"
+# }
+#
+# outer_5_idx = None
+# outer_3_idx = None
+# inner_5_idx = None
+# inner_3_idx = None
+#
+# old_overhang_len = 4
 
-record = SeqIO.read(snapgene_file, "snapgene")
+# ~~~ 3bp_A ~~~
+snapgene_file = "3bp/3bp_A.dna"
+output_dir = "3bp/A"
+output_template = "pUMC-A{}{}-B{}{}.gbk"
 
-print(f"Record ID: {record.id}")
-print(f"Sequence: {record.seq}")
-print(f"Description: {record.description}")
-print(f"Length: {len(record.seq)}")
-
-outer_5_idx = 68
-outer_3_idx = 915
-inner_5_idx = 72
-inner_3_idx = 911
-
-old_overhang_len = 4
+num_fragments = 3
 
 overhangs = {
-    1: "GGAG",
-    2: "TACT",
-    3: "AATG",
-    4: "GCTT",
-    5: "CGCT",
+    1: "AGT",
+    2: "GGC",
+    3: "GGG",
+    4: "TCG",
 }
 
+outer_5_idx = 77
+outer_3_idx = 943
+inner_5_idx = 80
+inner_3_idx = 940
+
+old_overhang_len = 3
+
+# ~~~ 3bp_B ~~~
+# snapgene_file = "3bp/3bp_B.dna"
+# output_dir = "3bp/B"
+# output_template = "pUMC-B{}{}-A{}{}.gbk"
+
+# num_fragments = 3
+
+# overhangs = {
+#     1: "AGT",
+#     2: "GGC",
+#     3: "GGG",
+#     4: "TCG",
+# }
+
+# outer_5_idx = 79
+# outer_3_idx = 925
+# inner_5_idx = 82
+# inner_3_idx = 922
+
+# old_overhang_len = 3
+
+# ---
+
+assert len(overhangs) == num_fragments + 1
+
 def all_pairs(n):
-    for i in range(1, n):
-        for j in range(i + 1, n):
+    """
+    Returns all tuples (i, j) where i < j <= n.
+    """
+    for i in range(1, n + 1):
+        for j in range(i + 1, n + 1):
             yield (i, j)
+
 
 def delete_range_from_seqrecord(seq_record: SeqRecord, start: int, end: int) -> SeqRecord:
     """
@@ -96,8 +142,15 @@ def delete_range_from_seqrecord(seq_record: SeqRecord, start: int, end: int) -> 
 
     return new_record
 
-for out_type in all_pairs(6):
-    for in_type in all_pairs(6):
+record = SeqIO.read(snapgene_file, "snapgene")
+
+print(f"Record ID: {record.id}")
+print(f"Sequence: {record.seq}")
+print(f"Description: {record.description}")
+print(f"Length: {len(record.seq)}")
+
+for out_type in all_pairs(num_fragments + 1):
+    for in_type in all_pairs(num_fragments + 1):
 
         out_5_type, out_3_type = out_type
         in_5_type, in_3_type = in_type
